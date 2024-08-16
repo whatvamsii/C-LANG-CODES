@@ -1,4 +1,4 @@
-*/C program that calculates the sum of indices of prime values in an array/*
+/*C program that calculates the sum of indices of prime values in an array*/
 
 
 #include <stdio.h>
