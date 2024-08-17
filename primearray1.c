@@ -5,7 +5,6 @@
     int prime(int n)
     
     {
-        int flag;
         if (n <= 1)
         {
         return 1; 
