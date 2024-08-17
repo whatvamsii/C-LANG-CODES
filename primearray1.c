@@ -1,4 +1,4 @@
-
+/*C program that calculates the sum of indices of prime values in an array*/
 
 
 #include<stdio.h>
@@ -6,6 +6,10 @@
     
     {
         int flag;
+        if (n <= 1)
+        {
+        return 1; 
+        }
         for(int i=2;i<=n/2;i++)
         {
         if(n%i==0)
